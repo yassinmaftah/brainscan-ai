@@ -1,0 +1,20 @@
+services:
+  jupyter:
+    build: .
+    image: brainscan
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./data:/app/data
+      - ./notebooks:/app/notebooks
+      - ./models:/app/models
+
+  streamlit:
+    build: .
+    image: brainscan
+    command: streamlit run app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./models:/app/models
+    profiles: ["app"]
