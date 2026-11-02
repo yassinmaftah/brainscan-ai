@@ -394,8 +394,7 @@ The model was evaluated on a dedicated, held-out test split of **1,405 images** 
 
 ## 11. Author & Acknowledgments
 
-- **Author:** [Yassine Maftah](https://github.com/yassinmaftah)
-- **LinkedIn:** [linkedin.com/in/yassine-maftah](https://www.linkedin.com/in/yassine-maftah/)
+- **Author:** [Yassine Maftah](https://www.instagram.com/ysnmaftah/)
+- **LinkedIn:** [linkedin.com/in/yassine-maftah](https://www.linkedin.com/in/yassine-maftah-b5793933b/)
 - **GitHub:** [@yassinmaftah](https://github.com/yassinmaftah)
 - **Dataset Acknowledgments:** Curated public Brain Tumor MRI dataset combining clinical axial/coronal scans across Glioma, Meningioma, Pituitary, and Normal tissue (7,023 images).
-- **License:** MIT License
